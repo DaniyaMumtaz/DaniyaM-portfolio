@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daniya Mumtaz - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Daniya Mumtaz
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          dmumtaz@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendation">Recommendation</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://scontent.fisb5-2.fna.fbcdn.net/v/t1.6435-9/69729916_2511106052450475_1419860667015364608_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=_u6Iss3JDxkAX8ioKVi&_nc_ht=scontent.fisb5-2.fna&oh=00_AfDFVm812XRwg80SInrN16FcZfMSiBOgvXDbc1VYgFKa9Q&oe=6511A37B"  width="300px" height="200px" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Daniya Mumtaz! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            I am a beginner at web development ad this is my first single page web application.
+            This course has improved my skills and I am excited to embark upon this journey with amazing projects
+            coming ahead.
+
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="html_finalprojimages/react.png"/>
+            <h6>React</h6>
+            <p>1.5 years experience</p>
+        </div> 
+
+        <div class="skill">
+            <img src="html_finalprojimages/java.png"/>
+            <h6>java</h6>
+            <p>2.5 years experience</p>
+        </div> 
+        <div class="skill">
+            <img src="html_finalprojimages/node.png"/>
+            <h6>Node</h6>
+            <p>4 years experience</p>
+        </div> 
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="project-card" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Recipe App</h3>
+            <ul>
+              <li>Created a Recipe App on codefree platform bubble.io</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Obstacle Avoiding Robot</h3>
+            <ul>
+              <li>Simulated this project on Proteus</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Visa Application System</h3>
+            <ul>
+              <li>Created a styled multi-page website for visa Applicants</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I highly recommend Daniya for any project or team that requires a strong analytical mind and exceptional problem-solving skills. 
+          Daniya has ability to dissect complex problems.
+    
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          It is with great enthusiasm that I recommend Daniya as a leader who can inspire and motivate teams to achieve outstanding results.
+           I had the pleasure of observing Daniya's leadership skills firsthand when she led a cross-functional team on a critical project.
+          
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I am delighted to write a recommendation for Daniya, whose creative flair and artistic talents never cease to amaze. Whether it's through her captivating paintings, intricate sculptures, or thought-provoking installations, Daniya's art has a unique ability to evoke emotions.
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+        <p>Thanks for your recommendation</p>
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
